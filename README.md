@@ -11,7 +11,7 @@
 [![Build Status](https://travis-ci.org/alivcor/megaclite.svg?branch=master)](https://travis-ci.org/alivcor/SMORK)
 
 <p align="center">
-<img src="https://github.com/alivcor/SMORK/raw/master/static/smork.png" />
+<img src="https://github.com/alivcor/SMORK/raw/master/static/smork_350.png" />
 </p>
 
 Implementation of SMOTE - Synthetic Minority Over-sampling Technique in SparkML / MLLib
