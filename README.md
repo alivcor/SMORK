@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/alivcor/SMORK/raw/master/static/smork_white.png" style="max-width:50%;"/>
+<img src="https://github.com/alivcor/SMORK/raw/master/static/smork_white_350.png" style="max-width:50%;"/>
 </p>
 
 # SMORK
