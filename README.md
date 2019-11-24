@@ -1,17 +1,17 @@
 
 <p align="center">
-<img src="megaclite/static/megaclite_350.png" style="max-width:50%;"/>
+<img src="https://github.com/alivcor/SMORK/raw/master/static/smork_white.png" style="max-width:50%;"/>
 </p>
 
 # SMORK
 ## SMOTE in Spark
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/alivcor/segraph)
-[![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)](https://github.com/alivcor/segraph)
-[![Build Status](https://travis-ci.org/alivcor/megaclite.svg?branch=master)](https://travis-ci.org/alivcor/megaclite)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/alivcor/SMORK)
+
+[![Build Status](https://travis-ci.org/alivcor/megaclite.svg?branch=master)](https://travis-ci.org/alivcor/SMORK)
 
 <p align="center">
-<img src="megaclite_demo.gif" />
+<img src="https://github.com/alivcor/SMORK/raw/master/static/smork.png" />
 </p>
 
 Implementation of SMOTE - Synthetic Minority Over-sampling Technique in SparkML / MLLib
