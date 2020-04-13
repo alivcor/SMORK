@@ -45,12 +45,22 @@ Linux
 
 3. Use it normally as you would use any Estimator in Spark. 
 
+- Import 
+```scala
+      import com.iresium.ml.SMOTE
+```
+
+- Initialize & Fit
 ```scala
     val smote = new SMOTE()
     smote.setfeatureCol("myFeatures").setlabelCol("myLabel").setbucketLength(100)
 
     val smoteModel = smote.fit(df)
 
+```
+
+- Fit
+```scala
     val newDF = smoteModel.transform(df)
 ```
 
