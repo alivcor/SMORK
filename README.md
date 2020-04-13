@@ -27,15 +27,42 @@ This is a very basic implementation of SMOTE Algorithm in SparkML. This is the o
 
  - Spark 2.3.0 + 
 
-```
-pip install megaclite
-```
-
 ### Installation
 
+1. Build The Jar
+
+```bash
+      sbt clean package
+```
+
+2. Add The Jar to your Spark Application
+
+Linux
+
+```bash
+      --conf "spark.driver.extraClassPath=/path/to/smork-0.0.1.jar"
+```
+
+3. Use it normally as you would use any Estimator in Spark. 
+
+```scala
+    val smote = new SMOTE()
+    smote.setfeatureCol("myFeatures").setlabelCol("myLabel").setbucketLength(100)
+
+    val smoteModel = smote.fit(df)
+
+    val newDF = smoteModel.transform(df)
+```
+
+You can also see and run an example in `src/main/scala/SMORKApp.scala`
+
+### Coming Soon
 
 
-#### Python Package Index
+- [ ] PySMORK - Python Wrapper for SMORK - allows you to use SMOTE in PySpark
+- [ ] Support for categorical attributes
+
+<!-- #### Python Package Index
 
 SMORK is now available at https://pypi.python.org/pypi/smork/0.1
 
@@ -48,9 +75,9 @@ Optionally, if you have a linux-based machine (Ubuntu/OSX):
       tar xvzf smork-0.x.tar.gz -C /path/to/desireddirectory
 3. Migrate to the smork folder, and run
       python setup.py install
-```
+``` -->
 
-#### Using pip
+<!-- #### Using pip
 
 ```
 pip install smork
@@ -60,20 +87,20 @@ To upgrade,
 
 ```
 pip install --upgrade smork
-```
+``` -->
 
-
+<!-- 
 ## Using SMORK
 
+ -->
 
 
-
-## See the magic unleash
+<!-- ## See the magic unleash
 
 <p align="center">
 <img src="megaclite_demo.png" />
 </p>
-
+ -->
 
 ## Contributing
 
