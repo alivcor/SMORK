@@ -114,7 +114,7 @@ pip install --upgrade smork
 
 ## Contributing
 
-You are welcome to raise issues / send a pull-request.
+Looking for contributors ! You are welcome to raise issues / send a pull-request.
 
 
 ## Authors
