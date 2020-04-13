@@ -59,7 +59,7 @@ Linux
 
 ```
 
-##### - Fit
+##### - Transform
 ```scala
     val newDF = smoteModel.transform(df)
 ```
