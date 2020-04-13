@@ -29,13 +29,13 @@ This is a very basic implementation of SMOTE Algorithm in SparkML. This is the o
 
 ### Installation
 
-1. Build The Jar
+#### 1. Build The Jar
 
 ```bash
       sbt clean package
 ```
 
-2. Add The Jar to your Spark Application
+#### 2. Add The Jar to your Spark Application
 
 Linux
 
@@ -43,14 +43,14 @@ Linux
       --conf "spark.driver.extraClassPath=/path/to/smork-0.0.1.jar"
 ```
 
-3. Use it normally as you would use any Estimator in Spark. 
+#### 3. Use it normally as you would use any Estimator in Spark. 
 
-- Import 
+##### - Import 
 ```scala
       import com.iresium.ml.SMOTE
 ```
 
-- Initialize & Fit
+##### - Initialize & Fit
 ```scala
     val smote = new SMOTE()
     smote.setfeatureCol("myFeatures").setlabelCol("myLabel").setbucketLength(100)
@@ -59,7 +59,7 @@ Linux
 
 ```
 
-- Fit
+##### - Fit
 ```scala
     val newDF = smoteModel.transform(df)
 ```
