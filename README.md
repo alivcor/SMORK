@@ -126,4 +126,5 @@ Looking for contributors ! You are welcome to raise issues / send a pull-request
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/alivcor/SMORK/#)
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="abhinandandubey" data-color="#FF813F" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000" data-font-color="#fff" data-coffee-color="#fd0" ></script>
+
+<a href="https://www.buymeacoffee.com/abhinandandubey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
