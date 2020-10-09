@@ -127,4 +127,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/alivcor/SMORK/#)
 
-<a href="https://www.buymeacoffee.com/abhinandandubey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/abhinandandubey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 108px !important;" ></a>
